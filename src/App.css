@@ -1,38 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Allerta+Stencil|Source+Code+Pro:900");
+
+/* detail root variables */
+:root {
+  --font-serif: "Allerta Stencil", sans-serif;
+  --font-mono: "Source Code Pro", monospace;
+  --color-text: #efeee7;
+  --color-bg: #223458;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* title of the page */
+
+.title-name {
+  font-family: var(--font-serif);
+  margin: 30px 40px 10px 40px;
+  color: var(--color-bg);
+}
+
+/* cards-container */
 .App {
-  text-align: center;
+  background-image: linear-gradient(to right, #3056e0, #5699db);
+  padding: 30px;
+  border-radius: 5px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* cards */
+
+.card {
+  border-radius: 30px;
+  padding: 5px;
+  margin-top: 20px;
+}
+.card:hover {
+  transform: translateY(-8px);
+}
+/* card title */
+.title {
+  font-size: small;
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: rgb(185, 179, 179);
+  font-weight: bold;
+}
+/* card head */
+.head {
+  font-size: 50px;
+}
+.sub {
+  font-size: small;
+}
+/* card-btns */
+.btn {
+  border-radius: 30px;
+  height: 50px;
+  font-family: var(--font-serif);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Reponsive */
+
+@media all and (max-width: 600px) {
+  .App {
+    padding: 20px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  .card {
+    margin-top: 20px;
+    margin-right: 0%;
+    margin-left: 0%;
+    width: 100%;
   }
 }
