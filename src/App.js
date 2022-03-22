@@ -6,13 +6,13 @@ export default function App() {
   //data informations
   const data=[{
     access:"FREE",price:"$0",sub:"/month",user:"✔ Single User",
-    storage:"✔ 5GB Storage",projects:"✔ Unlimited Public Projects",group:"✔ Community Access",project:"❌ Unlimited Private Projects",support:"❌ Dedicated Phone Support",domain:"❌ Free Subdomain",report:"❌ Monthly Status Reports",
+    storage:"✔ 5GB Storage",project:"✔ Unlimited Public Projects",group:"✔ Community Access",project:"❌ Unlimited Private Projects",support:"❌ Dedicated Phone Support",domain:"❌ Free Subdomain",report:"❌ Monthly Status Reports",
   },{
     access:"PLUS",price:"$9",sub:"/month",user:"✔ 5 Users",
-    storage:"✔ 50GB Storage",projects:"✔ Unlimited Public Projects",group:"✔ Community Access",project:"✔ Unlimited Private Projects",support:"✔ Dedicated Phone Support",domain:"✔ Free Subdomain",report:"❌ Monthly Status Reports",
+    storage:"✔ 50GB Storage",project:"✔ Unlimited Public Projects",group:"✔ Community Access",project:"✔ Unlimited Private Projects",support:"✔ Dedicated Phone Support",domain:"✔ Free Subdomain",report:"❌ Monthly Status Reports",
   },{
     access:"PRO",price:"$49",sub:"/month",user:"✔ Unlimited Users",
-    storage:"✔ 150GB Storage",projects:"✔ Unlimited Public Projects",group:"✔ Community Access",project:"✔ Unlimited Private Projects",support:"✔ Dedicated Phone Support",domain:"✔ Unlimited Free Subdomain",report:"✔ Monthly Status Reports",
+    storage:"✔ 150GB Storage",project:"✔ Unlimited Public Projects",group:"✔ Community Access",project:"✔ Unlimited Private Projects",support:"✔ Dedicated Phone Support",domain:"✔ Unlimited Free Subdomain",report:"✔ Monthly Status Reports",
   },
 ]
   return (
