@@ -17,7 +17,7 @@ export default function App() {
 ]
   return (
     <div>
-      {/* title of the page */}
+      
       <h1 className='text-center title-name'>Pricing Table</h1>
       <div className="App">
       
