@@ -62,6 +62,8 @@
   height: 50px;
   font-family: var(--font-serif);
 }
+body
+{background:#ffa07a}
 
 /* Reponsive */
 
